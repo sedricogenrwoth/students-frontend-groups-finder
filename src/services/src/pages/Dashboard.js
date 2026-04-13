@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import api from "../services/api";
+import Navbar from "../components/Navbar";
 
 function Dashboard() {
 
@@ -13,6 +14,7 @@ function Dashboard() {
 
     return (
         <div>
+            <Navbar />
             <h2>My Dashboard</h2>
 
             {groups.length === 0 ? (
@@ -30,5 +32,3 @@ function Dashboard() {
 }
 
 export default Dashboard;
-import Navbar from "../components/Navbar";
-<Navbar />
