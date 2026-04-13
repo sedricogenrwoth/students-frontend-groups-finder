@@ -30,3 +30,5 @@ function Dashboard() {
 }
 
 export default Dashboard;
+import Navbar from "../components/Navbar";
+<Navbar />
