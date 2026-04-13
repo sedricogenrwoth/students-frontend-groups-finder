@@ -8,3 +8,5 @@ import Groups from "./pages/Groups";
  import Sessions from "./pages/Sessions";
  <Route path="/sessions" element={<Sessions />} />
  
+import Posts from "./pages/Posts";
+<Route path="/posts" element={<Posts />} />
