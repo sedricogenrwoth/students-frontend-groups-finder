@@ -33,3 +33,9 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+const logout = () => {
+    localStorage.removeItem("token");
+    window.location.href = "/";
+};
