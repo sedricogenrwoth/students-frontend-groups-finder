@@ -39,3 +39,4 @@ const logout = () => {
     localStorage.removeItem("token");
     window.location.href = "/";
 };
+<button onClick={logout}>Logout</button>
